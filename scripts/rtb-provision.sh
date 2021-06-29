@@ -16,6 +16,6 @@ apt-get -y install dnsmasq
 
 # Konfiguration von Firewall und NAT
 apt-get -y install firehol
-cp /vagrant/config/etc-firehol.conf /etc/firehol/firehol.conf
-cp /vagrant/config/etc-default-firehol /etc/default/firehol
+cp vagrant/config/etc-firehol.conf /etc/firehol/firehol.conf
+cp vagrant/config/etc-default-firehol /etc/default/firehol
 firehol start
